@@ -28,7 +28,7 @@
 
 ### 1. Get MAX API token
 
-Register at [max.ru/developers](https://max.ru/developers) and create a bot/app to get your API token.
+Register at [dev.max.ru](https://dev.max.ru) and create a bot/app to get your API token.
 
 ### 2. Get your MAX user ID
 
@@ -80,7 +80,7 @@ Open MAX, send a message to your bot — it will be forwarded to OpenClaw and th
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `MAX_TOKEN` | ✅ | — | MAX API token from max.ru/developers |
+| `MAX_TOKEN` | ✅ | — | MAX API token from dev.max.ru |
 | `ALLOWED_USER_IDS` | ✅ | — | Comma-separated user IDs allowed to use the bridge |
 | `OC_GATEWAY_HOST` | | `127.0.0.1` | OpenClaw gateway host |
 | `OC_GATEWAY_PORT` | | `18789` | OpenClaw gateway port |
@@ -97,7 +97,7 @@ The bridge uses the MAX Platform API:
 - **Send message:** `POST /messages?user_id=<id>` with body `{ "text": "..." }`
 - **Typing indicator:** `POST /chats/{user_id}/actions` with `{ "action": "typing_on" }`
 
-See official docs at [max.ru/developers](https://max.ru/developers) for full API details.
+See official docs at [dev.max.ru/docs](https://dev.max.ru/docs) for full API details.
 
 ## PM2 (production)
 
@@ -140,7 +140,7 @@ MIT
 
 ### 1. Получите токен MAX API
 
-Зарегистрируйтесь на [max.ru/developers](https://max.ru/developers) и создайте бота/приложение.
+Зарегистрируйтесь на [dev.max.ru](https://dev.max.ru) и создайте бота/приложение.
 
 ### 2. Узнайте свой MAX user ID
 
@@ -209,7 +209,7 @@ node max-bridge.js
 - **Отправка:** `POST /messages?user_id=<id>` с телом `{ "text": "..." }`
 - **Печатает:** `POST /chats/{user_id}/actions` с `{ "action": "typing_on" }`
 
-Полная документация: [max.ru/developers](https://max.ru/developers)
+Полная документация: [dev.max.ru/docs](https://dev.max.ru/docs)
 
 ## PM2 (продакшен)
 
@@ -223,3 +223,4 @@ pm2 startup
 ## Лицензия
 
 MIT
+
