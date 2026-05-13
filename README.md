@@ -1,6 +1,6 @@
 # MAX.ru ↔ OpenClaw Bridge
 
-[![Banner](https://raw.githubusercontent.com/maratsalihov/max-openclaw-bridge/master/MAX.ru%20%E2%86%96%20OpenClaw%20Bridge.png)](https://github.com/maratsalihov/max-openclaw-bridge)
+![Banner](banner.png)
 
 > Bridge between [MAX.ru](https://max.ru) messenger and [OpenClaw](https://openclaw.ai) AI assistant. Chat with your AI assistant directly from the MAX app on any device.
 
